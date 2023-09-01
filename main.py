@@ -31,7 +31,7 @@ result["upper-case"] = uppercase
 
 
 # print(result)
-if (all(result)):
+if (all(result.values())):
     print("Strong Password")
 else:
     print("Weak Password")
