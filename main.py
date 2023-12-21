@@ -19,7 +19,7 @@ for i in password:
 result["number"] = digit
 
 
-# Third condition: checking if an uppercase letter is in password.
+# Third condition: checking if an uppercase letter is in password
 # isupper() method would return false if we gave it a string with only 1 uppercase letter.
 # We want this to be true. Hence have to iterate through it.
 uppercase = False
